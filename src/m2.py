@@ -243,7 +243,7 @@ def broken_5(circle, window):
 
     Type hints:
       :type circle: rg.Circle
-      :type window: rg.RoseWindow
+      :type window: rg.RoseWindow 
     """
     circle.attach_to(window)
     square = rg.Square(circle.center, 2 * circle.radius)
